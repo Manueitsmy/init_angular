@@ -13,6 +13,9 @@ Partie 1 - Initiation
   
 Partie 2 - Routing Partie
 
+ * Assiocier une URL avec un composant
+ * Afficher les détails d'un produit
+   
 Partie 3 - Data partie
 
 Partie 4 - Formulaire
@@ -37,7 +40,7 @@ J'ai ajouté un bouton "Share" qui s'est ajouté sous chaque téléphone et qui 
 
 ***J'ai trouvé le côté dynamique apporté par Angular en très peu de lignes de codes très impressionnant et sympathique.***
   
-* Transmettre des données à un composant enfant
+* Transmettre des données à un composant
 
 J'ai créé une nouvelle fonctionnalité d'alerte afin d'être prévenue si un téléphone côutait plus de 700$ à l'aide d'un bouton grâce auqel les clients peuvent s'inscrire pour être alerté.
 J'ai tout d'abord généré un nouveau composant à l'aide du terminal de ce type :
@@ -51,7 +54,19 @@ ng generate component product-alerts
 
 ### **Partie 2 - Routing Partie**
 
+* Assiocier une URL avec un composant
 
+J'ai tout d'abord créé un nouveau fichier à l'aide du terminal :
+
+```
+ng generate component product-details
+```
+
+J'ai ensuite ajouter un chemin vers le fichier généré par le terminal.
+
+
+   
+ * Afficher les détails d'un produit
 
 ### **Partie 3 - Data partie**
 
