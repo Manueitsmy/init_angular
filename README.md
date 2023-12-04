@@ -20,8 +20,10 @@ Partie 3 - Data partie
 
 Partie 4 - Formulaire
 
+*******************************************************************************************************************************************************************************************
 
 ### **Partie 1 - Initiation**
+
 Application qui parcourt les composants de données et de fonctionnalités qui comminquent entre eux.
 
 * Créer l'exemple de projet
