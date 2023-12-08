@@ -18,6 +18,12 @@ Partie 2 - Routing Partie
    
 Partie 3 - Data partie
 
+* Créer le service de panier d'achat
+* Créer la vue du panier
+* Récupérer les prix d'expédition
+* Créer un composant d'expédition
+   
+
 Partie 4 - Formulaire
 
 *******************************************************************************************************************************************************************************************
@@ -67,10 +73,29 @@ ng generate component product-details
 J'ai ensuite ajouter un chemin vers le fichier généré par le terminal.
 
 
-   
- * Afficher les détails d'un produit
+
+* Afficher les détails d'un produit
+
+
 
 ### **Partie 3 - Data partie**
+
+ * Créer le service de panier d'achat
+    - Définir un service de panier
+    - Utiliser le service du panier
+  
+
+* Créer la vue du panier
+
+
+
+* Récupérer les prix d'expédition
+
+
+
+* Créer un composant d'expédition
+
+
 
 
 ### **Partie 4 - Formulaire**
