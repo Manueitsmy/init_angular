@@ -18,11 +18,7 @@ Partie 2 - Routing Partie
    
 Partie 3 - Data partie
 
-* Créer le service de panier d'achat
-* Créer la vue du panier
-* Récupérer les prix d'expédition
-* Créer un composant d'expédition
-   
+  
 
 Partie 4 - Formulaire
 
@@ -70,13 +66,19 @@ J'ai tout d'abord créé un nouveau fichier à l'aide du terminal :
 ng generate component product-details
 ```
 
+***Je suis toujours aussi impressionnée de voir que la création d'un composant avec une simple commande sur le terminal organise aussi bien les fichiers !***
+
 J'ai ensuite ajouter un chemin vers le fichier généré par le terminal.
 
+J'ai ensuite personnalisé l'élément d'encrage sur product-list.component.html à l'aide de la directive RouterLink ce qui peut me permettre de donner les détails de chaque téléphone en donnant un URL correspondant à l'ID donné.
 
+***Toujours aussi dynamique !***
 
 * Afficher les détails d'un produit
 
+Avant d'afficher les détails des produits, j'ai effectué tout un processus grâce aux divers imports et diverses opérations qui m'ont amené à la page html où j'ai saisi les chemins jusqu'au fichier correspondant.
 
+***Je n'ai pas tout à fait compris toutes les étapes jusqu'à l'affichage des détails...***
 
 ### **Partie 3 - Data partie**
 
