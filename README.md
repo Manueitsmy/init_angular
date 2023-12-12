@@ -3,22 +3,13 @@
 
 
 Afin de découvrir Angular, nous avons suivi un pas à pas dans le but de comprendre ses fonctionnalités.
+Ce pas à pas se divise en 4 grandes parties :
 
 Partie 1 - Initiation
-
-* Créer l'exemple de projet
-* Créer la liste de produits
-* Transmettre des données à un composant enfant
-* Transmettre des données à un composant parent
-  
+ 
 Partie 2 - Routing Partie
-
- * Assiocier une URL avec un composant
- * Afficher les détails d'un produit
    
 Partie 3 - Data partie
-
-  
 
 Partie 4 - Formulaire
 
@@ -82,20 +73,48 @@ Avant d'afficher les détails des produits, j'ai effectué tout un processus gr�
 
 ### **Partie 3 - Data partie**
 
- * Créer le service de panier d'achat
-    - Définir un service de panier
-    - Utiliser le service du panier
-  
+* Définir un service de panier
 
+J'ai tout d'abord définit un service de panier grâce au terminal avec la commande `cart` :
+
+```
+ng generate service cart
+```
+
+***J'ai été surprise de voir où se service s'est créé.***
+
+J'ai ensuite importé l’interface depuis le fichier, et dans la classe, j'ai défini une propriété pour stocker le tableau des produits actuels dans le panier.
+
+J'ai défini des méthodes pour ajouter des articles au panier, retourner des articles du panier et effacer les articles du panier.
+  
+* Utiliser le service de panier
+
+  
 * Créer la vue du panier
 
 
+* Configurer le composant panier
 
-* Récupérer les prix d'expédition
+  
+* Afficher les articles du panier
 
+  
+* Récupérer les prix d’expédition
 
+  
+* Configurer pour utiliser AppModuleHttpClient
 
-* Créer un composant d'expédition
+  
+* Configurer pour utiliser CartServiceHttpClient
+
+  
+* Configurer pour obtenir les prix d’expéditionCartService
+
+  
+* Création d’un composant d’expédition
+
+  
+* Configuration de l’option à utiliser ShippingComponentCartService
 
 
 
