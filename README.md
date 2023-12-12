@@ -86,6 +86,8 @@ ng generate service cart
 J'ai ensuite importé l’interface depuis le fichier, et dans la classe, j'ai défini une propriété pour stocker le tableau des produits actuels dans le panier.
 
 J'ai défini des méthodes pour ajouter des articles au panier, retourner des articles du panier et effacer les articles du panier.
+
+***Je n'ai pas réussi à insérer une partie je me sens mal par rapport à cela... J'ai l'impression de ne pas comprendre grand chose... Tout à fait subjectif en effet...***
   
 * Utiliser le service de panier
 
